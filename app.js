@@ -37,4 +37,13 @@ const completedButton=document.createElement('button');
 completedButton.innerHTML='<i class="fas fa-check"></i>';
 completedButton.classList.add("completed-btn")
 todoDiv.appendChild(completedButton)
+
+
+// Delete button
+
+const deleteButton=document.createElement("button");
+deleteButton.innerHTML='<i class="fas fa-trash"></i>'
+deleteButton.classList.add("delete");
+todoDiv.appendChild(deleteButton);
 }
+
